@@ -47,7 +47,7 @@ Which lines and/or characters are different between these files?
 
 # Part 5 `head`/`tail` `more`/`less`
 Sometimes we use the terminal to view very large text files such as system logs. Printing these large text files to the terminal usually forces portions to get cut off due to the buffer size of terminal emulator. While you could increase the buffer size to fit the entire file, this is not a great solution. We can use programs like head/tail to view the top or bottom of the files then scroll up from there. more and less do similar things, more allows forward navigation and minimal backwards navigation, while less allows for both forward and backwards navigation. 
-
+## Tasks
 1. Use head to view the top few lines of the very_large_text_file.txt
 2. Use tail to view the bottom few lines of the very_large_text_file.txt
 3. Use more or less to explore the same file
