@@ -1,0 +1,19 @@
+[2025-10-21 02:23:26] [/workspaces/Lab01] source .devcontainer/shell.sh
+[2025-10-21 02:28:12] [/workspaces/Lab01] man tar
+[2025-10-21 02:28:13] [/workspaces/Lab01] man tar
+[2025-10-21 02:31:16] [/workspaces/Lab01] tar -czvf compressedNonEmpty.tar.gz nonempty.txt 
+[2025-10-21 02:31:38] [/workspaces/Lab01] tar -xzvf compressedNonEmpty.tar.gz nonempty.txt 
+[2025-10-21 02:31:48] [/workspaces/Lab01] tar -xzvf compressedNonEmpty.tar.gz
+[2025-10-21 02:33:23] [/workspaces/Lab01] zip compressedNonEmpty.zip nonempty.txt 
+[2025-10-21 02:34:01] [/workspaces/Lab01] unzip compressedNonEmpty.zip 
+[2025-10-21 02:34:39] [/workspaces/Lab01] time ./program.sh 
+[2025-10-21 02:44:56] [/workspaces/Lab01] time ./program.sh 100
+[2025-10-21 02:44:59] [/workspaces/Lab01] time ./program.sh 1000
+[2025-10-21 02:46:27] [/workspaces/Lab01] diff file_a.txt file_b.txt 
+[2025-10-21 02:52:42] [/workspaces/Lab01] head very_large_text_file.txt 
+[2025-10-21 02:52:55] [/workspaces/Lab01] tail very_large_text_file.txt 
+[2025-10-21 02:53:04] [/workspaces/Lab01] more 
+[2025-10-21 02:53:11] [/workspaces/Lab01] man more
+[2025-10-21 02:53:24] [/workspaces/Lab01] more very_large_text_file.txt 
+[2025-10-21 02:53:28] [/workspaces/Lab01] git status
+[2025-10-21 02:53:34] [/workspaces/Lab01] git add README.md

@@ -1,0 +1,7 @@
+[2025-10-21 01:49:36] [/workspaces/Lab01] source .devcontainer/shell.sh
+[2025-10-21 01:58:04] [/workspaces/Lab01] code nonempty.txt
+[2025-10-21 01:58:23] [/workspaces/Lab01] git add nonempty.txt 
+[2025-10-21 01:58:45] [/workspaces/Lab01] git commit -m "adding a nonempty text file"
+[2025-10-21 01:58:53] [/workspaces/Lab01] git push
+[2025-10-21 01:59:07] [/workspaces/Lab01] tar
+[2025-10-21 01:59:20] [/workspaces/Lab01] man tar
